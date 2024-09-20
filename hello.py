@@ -13,8 +13,6 @@ def add_input(x, y): # Add input values
     print("x + y = ", end="")
     return x + y
 
-    print(f"{x + y:,}")
-
 def div_input(x, y):    # Divide input values
     print("x / y = ", end="")
     return x / y
