@@ -11,6 +11,6 @@ def main():
         print("Exception: user input is not an integer number.")
 
 def is_even(x):
-    return True if x % 2 == 0 else False
+    return (x % 2 == 0)
 
 main()
