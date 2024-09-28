@@ -2,7 +2,7 @@ import csv
 
 students = []
 
-fileName = "students.csv"
+fileName = "csv/students.csv"
 try:
     with open(fileName) as file:
         reader = csv.reader(file)
